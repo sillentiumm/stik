@@ -188,7 +188,6 @@
   font-weight: 400;
   margin-top: 4px;
 }
-
 .descr-sizes-element_title_inactive {
   color: var(--inactive-color);
   border: 1px solid var(--inactive-color);
@@ -196,7 +195,6 @@
 .descr-sizes-element_descr_inactive {
   color: var(--inactive-color);
 }
-
 .descr-colors {
   display: flex;
   gap: 16px;
@@ -219,7 +217,6 @@
   height: 1px;
   background-color: var(--secondary-color);
 }
-
 .descr-busket {
   display: flex;
   align-items: center;
@@ -242,7 +239,6 @@
   background-color: transparent;
   cursor: pointer;
 }
-
 .descr-footer {
   width: 360px;
   border-top: 1px solid var(--descr-border-color);
