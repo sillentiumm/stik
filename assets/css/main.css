@@ -1,0 +1,35 @@
+:root {
+  --main-color: rgb(51, 51, 51);
+  --secondary-color: rgb(79, 79, 79);
+  --inactive-color: rgb(189, 189, 189); 
+  --descr-border-color: rgb(224, 224, 224);
+ }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Helvetica';
+}
+li {
+  list-style-type: none;
+}
+.desktop {
+  display: flex;
+}
+.mobile {
+  display: none !important;
+}
+.container {
+  max-width: 1360px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 980px) {
+  .desktop {
+    display: none !important;
+  }
+  .mobile {
+    display: flex !important;
+  }
+}
