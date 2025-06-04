@@ -12,8 +12,7 @@ export default defineNuxtConfig({
       { name: 'helvetica', provider: 'google'}
     ]
   },
-  target: 'static',
-  router: {
-    base: 'stik'
-  },
+  app: {
+    baseURL: 'stik'
+  }
 })
