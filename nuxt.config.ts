@@ -11,5 +11,9 @@ export default defineNuxtConfig({
     families: [
       { name: 'helvetica', provider: 'google'}
     ]
-  }
+  },
+  target: 'static',
+  router: {
+    base: 'stik'
+  },
 })

@@ -2,9 +2,11 @@
   <div class="container">
     <div class="main">
       <div class="other">
-        <img src="~/assets/img/main/image.png" alt="model-1">
+        <img src="@/assets/img/main/image.png" alt="model-1">
         <img src="~/assets/img/main/image-1.png" alt="model-2">
         <img src="~/assets/img/main/image-2.png" alt="model-3">
+        <div>555</div>
+        <img src="~/assets/img/logo.png" alt="Logo">
       </div>
       <div class="slider">
         <img src="~/assets/img/main/slider/image.png" alt="slide1">
